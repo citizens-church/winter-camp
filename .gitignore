@@ -1,0 +1,11 @@
+dist/
+node_modules/
+.dev.vars
+.env
+.env.*
+!.env.example
+.wrangler/
+*.sqlite*
+*.csv
+.DS_Store
+qa-results/

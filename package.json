@@ -1,0 +1,1 @@
+{"name":"citizens-winter-camp-2027","private":true,"type":"module","scripts":{"dev":"python3 -m http.server 4173","test":"node --test tests/*.test.mjs","build":"node scripts/build.mjs"},"engines":{"node":">=24"}}

@@ -1,0 +1,6 @@
+# Local development ONLY. Copy to .dev.vars, keep out of source control.
+# Use separate local/test values. These placeholders do not enable a working endpoint.
+ALLOWED_ORIGIN="http://localhost:4173"
+TURNSTILE_SECRET="REPLACE_WITH_LOCAL_TURNSTILE_TEST_SECRET"
+RATE_LIMIT_SALT="REPLACE_WITH_INDEPENDENT_RANDOM_SECRET_AT_LEAST_32_CHARACTERS"
+ADMIN_TOKEN="REPLACE_WITH_INDEPENDENT_RANDOM_SECRET_AT_LEAST_32_CHARACTERS"
